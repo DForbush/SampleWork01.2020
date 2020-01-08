@@ -1,0 +1,194 @@
+---
+title: "Dan Forbush PA541 Homework 2"
+author: "Dan Forbush"
+date: "3/12/2019"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##R-Code Setup
+```{r file setup, echo=TRUE, results = "hide", warning=FALSE}
+#set WD:
+setwd("~/Documents/UIC/PA 541 Data Analysis/Homework 2")
+
+#load libraries:
+library(tidyverse)
+library(ggplot2)
+
+options(scipen = 999)
+
+#load data:
+cell <- read.csv("~/Documents/UIC/PA 541 Data Analysis/Homework 2/cell.csv")
+fines <- read.csv("~/Documents/UIC/PA 541 Data Analysis/Homework 2/fines.csv")
+
+#converting cell_ban and text_ban to factors is useful for many problems:
+cell$cell_ban <- as.factor(cell$cell_ban)
+cell$text_ban <- as.factor(cell$text_ban)
+
+#same with converting Female, Hispanic, and Black in fines: 
+fines$Female <- as.factor(fines$Female)
+fines$Hispanic <- as.factor(fines$Hispanic)
+fines$Black <- as.factor(fines$Black)
+
+```
+
+#Part 1
+##Question 1
+
+**(a) Of the states with a texting ban, which one has the highest number of traffic deaths?**
+
+```{r q1a, echo = TRUE}
+cell %>%
+  select(state, cell_ban, numberofdeaths)%>%
+  filter(cell_ban==1) %>%
+  arrange((desc(numberofdeaths)))
+
+```
+
+California has the highest number of deaths among the states that have a cell phone ban. 
+
+**(b) How many states have a cell ban, how many have a texting ban, and how many have both?**  
+
+```{r q1b, echo = TRUE}
+table(cell$cell_ban == 1)
+table(cell$text_ban == 1)
+table(cell$cell_ban == 1 & cell$text_ban == 1)
+```
+10 states have a cell phone ban, 34 states have a text ban, and 10 states have both a cell phone ban and a text ban. 
+
+**(c) What is the average number of deaths in states with a texting ban versus those without?**
+```{r q1c, echo = TRUE}
+cell %>%
+  group_by(text_ban) %>%
+  summarise(mean.deaths = mean(numberofdeaths))
+```
+The mean number of traffic deaths is 892.25 for states that don't have a text ban. The mean number of traffic deaths is 566.76 for states that do have a text ban. 
+
+**(d) Plot the relationship between population and number of traffic deaths for those with and without a cell ban on the same plot.** 
+
+```{r q1d, echo = TRUE}
+ggplot(cell, aes(x=population, y=numberofdeaths, group=cell_ban)) +
+  geom_point(aes(color=cell_ban)) +
+  geom_smooth(method="lm", aes(color=cell_ban)) +
+  labs(title = "Number of Traffic Deaths With or Without Cell Ban") +
+  theme(legend.position="bottom")
+```
+
+##Question 2
+
+**Although we don’t know how many people are using their phones while driving, we can find the number of cell phone subscriptions in a state (in thousands). Estimate a model with traffic deaths as the dependent variable and number of cell phone subscriptions and population as the independent variables. Interpret the slopes and intercept.**
+
+```{r q2, echo = TRUE}
+mod1 <- lm(numberofdeaths~cell_subscription + population, data = cell)
+summary(mod1)
+```
+The intercept tells us that, if the number of cellphone subscriptions and population were both equal to 0, we would expect 113.93 traffic deaths. The slope term on cell subscriptions tells us that with each additional 1,000 cell phone subscribers in a state, Model 1 predicts .21 fewer deaths. The slope term on population tells us that with each additional 1,000 people, the model predicts .000290 more traffic deaths. 
+
+##Question 3
+
+**Now add total miles driven to the model. What happens to the coefficient on cell phone subscriptions? Why?**  
+
+```{r q3, echo=TRUE}
+mod2 <- lm(numberofdeaths~cell_subscription + population + total_miles_driven, data = cell)
+summary(mod2)
+```
+When total miles driven was added in as predictor, the cell subscription variable went from -.21 to +.002. This is an example of omitted variable bias. There was a downward bias because the true coefficient (.002) is higher than the observed coefficient without total miles driven (-.21). 
+
+##Question 4
+
+**Add the dummy variables for cell phone bans and texting bans to the model from question 3. Interpret the coefficients on these dummy variables.**
+
+```{r q4, echo = TRUE}
+#converting cell_ban and 
+mod3 <- lm(numberofdeaths~cell_subscription + population + total_miles_driven + cell_ban + text_ban, data = cell)
+summary(mod3)
+```
+The cell phone ban and text ban are both categorial variables, meaning they are either present or absent. For each state that has a text ban, approximately 165 fewer traffic deaths are predicted. The model tells us that for each state that has a cell phone ban, approximately 101 fewer traffic deaths are predicted on average. However, it should be noted that the p-value on the cell ban is .176 so we cannot reject the null hypothesis that the true effect of a cell phone ban on traffic deaths is zero. 
+
+##Question 5
+
+**Based on the results from question 4, how many lives would be saved if California banned cell phone use while driving? How many lives would be saved if Wyoming had such a ban? Discuss implications for the proper specification of the model.**  
+
+There are no interaction effects in Model 3 in question 4, so it is not specific to situations where a cell phone ban may be more or less effective. Therefore, our model predicts that both Wyoming and California would see the same benefit from a cell phone ban: approximately 101 fewer traffic deaths. Because cell phone ban is a categorical variable, it shifts the linear model by a constant amount regardless of the values of any of the continuous variables. 
+
+##Question 6
+
+**Estimate a model in which total miles is interacted with both the cell phone ban and the prohibition of texting variables. What is the estimated effect of a cell phone ban for California? For Wyoming? What is the effect of a texting ban for California? For Wyoming? What is the effect of total miles?**
+
+```{r q6-1, echo = TRUE}
+ mod4 <- lm(numberofdeaths~cell_subscription + population + total_miles_driven + cell_ban + text_ban + cell_ban*total_miles_driven + text_ban*total_miles_driven, data = cell)
+summary(mod4)
+```
+Model 4 tells us that the coefficient on total miles driven is moderated by the presence of a cell phone ban and/or text ban. The coefficient on total miles driven says that with each million miles driven, .0142 traffic deaths will result. However, if a cell phone ban is present, then that coefficient is reduced by about 0.0015 to about .0127 traffic deaths per million total miles. Likewise with the text ban, if it is present, the coefficient on total miles driven will decrease by 0.0029 to .0113 deaths per million miles driven. 
+
+```{r q6-2, echo = TRUE}
+newdata1 <- cell %>% filter(state == "California")
+mod4$coefficients[5] + (mod4$coefficients[7]*newdata1$total_miles_driven)
+mod4$coefficients[6] + (mod4$coefficients[8]*newdata1$total_miles_driven)
+newdata1$total_miles_driven
+```
+Our model predicts that a cell phone ban in California will save approximately 497 traffic deaths per year. It does this in part because of the cell phone ban alone which, according to the model, saves about 20 lives per year. The other part is because of the interaction between the cell phone ban and total miles driven, which is calculated as the total miles driven in California (326,271 million) times the interaction coefficient (.00146) and equals about 477 lives saved per year.
+
+In California, the text ban saves approximately 932 lives per year. This is in part because of the text ban alone, the presence of which *adds* 21.83 deaths per year, and in part because of the interaction between the text ban and total miles driven in California, which saves 954 lives per year. 
+
+```{r q6-3, echo = TRUE}
+newdata2 <- cell %>% filter(state == "Wyoming")
+mod4$coefficients[5] + (mod4$coefficients[7]*newdata2$total_miles_driven)
+mod4$coefficients[6] + (mod4$coefficients[8]*newdata2$total_miles_driven)
+newdata2$total_miles_driven
+```
+In Wyoming, by contrast, the cell phone ban is predicted to save 33.65 lives per year and the text ban is predicted to save 5.28 lives per year. The calculation is the same as for California, but the lives saved is smaller because the total miles driven in Wyoming (9,271 million) is much smaller than that of California. 
+
+#Part 2
+##Question 7
+
+**Write out a model (in notation similar to that which we use in class or the Wooldridge text; in other words write out the regression model) that predicts the size of the fine based on Age, MPHover, Female, Hispanic, and Black. You can use the Microsoft word equation editor or simply enter the model using regular text in word. Given the model and how the variables are defined in the dataset, what is the base group? Write out the condition expectation for a Female Hispanic. Write out the conditional expectation for a Black Male.**
+
+The linear model equation, with Fine Amount represented by $Y_{i}$, would be:
+
+$Y_{i} = \beta_{0} + \beta_{1}Age_{i} + \beta_{2}MPHover_{i} + \alpha_1Female_{i} + \alpha_2Hispanic_{i} + \alpha_3Black_{i} + e_{i}$
+
+This linear model contains two continuous variables: Age and MPHover, which are represented with Beta coefficients. The dummy variables include Female, Hispanic, and Black, coded with alpha coefficients. The data set defines 0 = male, non-hispanic, and non-black (respectively), so those three characteristics would be the base group.  
+
+The conditional expectation for a female hispanic person is:
+
+$E(Y_{i}|Age_{i}, MPHover_{i}, Female_{i}=1, Hispanic_{i}=1, Black_{i} = 0) = (\alpha_1 + \alpha_2) + \beta_{0} + \beta_{1}Age_{i} + \beta_{2}MPHover_{i}$
+
+The conditional expectation for a black male is: 
+
+$E(Y_{i}|Age_{i}, MPHover_{i}, Female_{i}=0, Hispanic_{i}=0, Black_{i} = 1) = \alpha_3 + \beta_{0} + \beta_{1}Age_{i} + \beta_{2}MPHover_{i}$
+
+##Question 8
+
+**Run the model discussed above. Interpret the coefficients on Female, Hispanic, and Black. Look at standard errors on coefficients for the Female, Hispanic, and Black variables. Why they are different?**
+
+```{r q8, echo = TRUE}
+mod5 <- lm(Amount ~ Age + MPHover + Female + Hispanic + Black, data = fines)
+summary(mod5)
+```
+
+The coefficients from Model 5 tell us that, on average, the fine amount will decrease by \$3.54 if the driver is female; will increase by \$1.93 if the driver is hispanic; and will decrease by \$2.03 if the driver is black. 
+
+The standard error for each coefficient is an indicator of the variability within the sample. It is calculated based on the variance within the sample and can be used to determine if the coefficient value is significantly different from 0. Comparatively, the standard error on the Female variable is smaller than the standard errors on the Hispanic or Black variables (both of which are about equal). This means the model is more confident that the coefficient on female is statistically significant not likely to be 0 if the dataset was resampled. 
+
+On the other hand, the standard errors for the Hispanic and Black variables are on the border of statistical significance at the 0.05 level: Black has a p-value just under 0.05, while Hispanic has a p-value just over 0.05. This indicates that we can be somewhat confident that the coefficients on these variables are significantly different from 0, but not as confident as we are for the coefficient on the Female variable. 
+
+##Question 9
+
+**The model above implicitly assumes the effect of race is the same for both men and women. Test whether this assumption is true and briefly discuss your results (i.e., tell my whether the assumption is true or not).**
+
+In order to test the assumption that the effect of race is the same for both women and men, we can add two variables to Model 5 where the Female variable interacts with the Hispanic and Black variables:
+
+```{r q9, echo = TRUE}
+mod6 <- lm(Amount ~ Age + MPHover + Female + Hispanic + Black + Female*Hispanic + Female*Black, data = fines)
+summary(mod6)
+```
+
+The addition of the moderating variables where Female interacts with Hispanic and Female interacts with Black indicates that our assumption is likely true that the effect of race is the same for both men and women. 
+
+If there were no difference between how men and women are treated based on race, than the coefficient would be 0 on the interaction terms for both of those variables. Our model does return a non-zero value for both coefficients, so we look to the p-values to see if that value is due to chance or if it is significantly different from 0 at the 0.05 level. 
+
+The p-value for the coefficeint where Female interacts with Hispanic is .906, meaning that the value of this coefficient is not significantly different from 0. The same is true for the interaction between Female and Black as the p-value on this coefficient is .119.

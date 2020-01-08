@@ -1,0 +1,231 @@
+---
+title: "Dan Forbush PA541 Homework 1"
+author: "Dan Forbush"
+date: "2/13/2019"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##R-Code Setup
+```{r file setup, echo=TRUE}
+#set WD:
+setwd("~/Documents/UIC/PA 541 Data Analysis")
+
+#load libraries:
+library(tidyverse)
+library(ggplot2)
+
+#load data:
+Olympics <- read.csv("~/Documents/UIC/PA 541 Data Analysis/Olympics.csv")
+```
+
+#Part 1
+##Question 1
+
+**The following will require you to use the tools and verbs we learned during week 1 to wrangle data. The results of these tasks will produce a tibble.  You only need to copy and paste the tibble itself (what R reports) and not all of the variables or observations (i.e., don’t print out the whole dataset).** 
+
+**a.	Calculate a new variable, called ‘total.medals’ which is the sum of gold, silver and bronze and add it to the Olympic dataset. (2pts)**
+
+```{r new variable, echo = TRUE}
+Olympics$total.medals <- Olympics$gold + Olympics$silver + Olympics$bronze
+```
+
+**b.	For each country, how many gold medals has it won? (2pts)**  
+
+```{r total medals country, echo = TRUE}
+Olympics %>% group_by(country) %>% summarise(gold.total = sum(gold, na.rm = TRUE))
+```
+**c.	For each year, how many total medals were given out? (2pts)**
+```{r total medals year, echo = TRUE}
+Olympics %>% group_by(year) %>% summarise(medal.total = sum(total.medals, na.rm = TRUE))
+```
+**d.	Which countries had the largest delegation of athletes in 1992? Create a tibble that contains only the variables country and athletes. (2pts)** 
+
+The United States had the largest delegation of athletes. The code is printed below: 
+
+```{r largest athletes 1992, echo = TRUE}
+Olympics %>% 
+  filter(year == 1992) %>% 
+  select(country, athletes) %>% 
+  group_by(country)%>%
+  summarise(total.athletes.1992 = sum(athletes)) %>%
+  arrange(desc(total.athletes.1992))
+```
+
+**e.	For the following five countries, plot the number of gold medals earned over time: United States, France, Germany, Russia, and China.  (hint: see this site for help with creating a line plot http://www.sthda.com/english/wiki/ggplot2-line-plot-quick-start-guide-r-software-and-data-visualization) (4pts)**
+
+```{r gold medals over time, echo = TRUE}
+Olympics.gold <- Olympics %>%
+  filter(country %in% c("United States ","France ","Germany " ,"Russia " , "China ")) %>%
+  select(country, year, gold)
+
+ggplot(Olympics.gold, aes(x=year, y=gold, group=country)) +
+  geom_line(aes(color=country)) +
+  geom_point(aes(color=country)) +
+  labs(title = "Gold Medals Over Time for Select Countries")
+```
+
+##Question 2
+
+**Create a new variable, ‘precip.cat’ that breaks the continuous variable precipitation down into three categories: (i) 0 - 25, (ii) >25 - 60, (iii) >60.  Please label the categories “low”, “mid”, “high”.   Set this new variable to be a factor.**
+
+**What is the mean of total.medals in each of the precipitation categories?**
+
+```{r precip.cat creation and mean, echo = TRUE}
+Olympics = Olympics %>% 
+  mutate(precip.cat = case_when(precipitation > 60 ~ 'High',
+                               precipitation > 25 & precipitation <= 60 ~ 'Mid',
+                               precipitation <= 25 ~ 'Low'))
+Olympics$precip.cat <- factor(Olympics$precip.cat, levels =c('Low', 'Mid', 'High'))
+class(Olympics$precip.cat)
+
+Olympics %>% 
+  group_by(precip.cat) %>%
+  summarise(mean.total.medals = mean(total.medals, na.rm=TRUE))
+```
+
+##Question 3
+
+**Run an ANOVA model to test the predictive capability of the percip.cat variable on total.medals.**  
+
+```{r precip anova, echo=TRUE}
+anova = aov(total.medals~precip.cat, data = Olympics)
+summary(anova)
+TukeyHSD(anova)
+```
+
+**(a) What do you conclude from the results?** 
+
+The ANOVA test shows that there is a significant correlation between precipitation category and total medals. It gives a p value of 0.00000778, indicating that it is highly unlikely that the difference in the means of the total medals among precipitation categories was due to chance alone. 
+
+The Tukey results show that there is a strong statistical significance between middle and low precipitation countries, and there is a weaker statistical significance between low and high precipitation countries and medium and high precipitation countries. 
+
+**(b) What might cause us to find an association between these variables? Do you think precipitation is having a causal effect on total.medals?  What else might be going on?**
+
+I think what is going on here has to do with the Winter Olympics. The Winter Olympics mostly take place in snowy countries because a huge number of events require snow, such as skiing, snowboarding, luging, and others. Low precipitation countries are unlikely to have significant, if any, snow fall which they could use to practice in these events. Likewise, high precipitation countires probably are in tropical regions along the equator or other hot areas of the planet. They would likely be getting high amounts of rain, but not necessarily snow (though some probably do). 
+
+Therefore, these high and low precipitation countries may not participate and certainly wouldn’t succeed during the Winter Olympics. This would cause their average number of medals received to fall significantly. During half of the years in the dataset, those countries would receive 0 medals. Therefore, I don’t think that precipitation is having a causal effect on total medals received, but it does have an effect on which countries participate during which years of the Olympics.
+
+#Part 2
+
+**For part 2, let’s limit the Olympic data to only the year 2014 and only countries that participated in the Olympics that year (i.e., participate = 1). So, to begin part 2, create this new dataset.**
+
+```{r create new dataset, echo = TRUE}
+Olympics2014 <- Olympics %>%
+  filter(year == 2014 & participate == 1)
+```
+
+##Question 4
+
+**Test the correlation between athletes and total.medals.  What are your findings (i.e., what is the size of the correlation and is it significant)?**
+
+```{r corr test 1, echo = TRUE}
+cor.test(Olympics2014$athletes, Olympics2014$total.medals)
+```
+
+This code indicates that the correlation between athletes and total medals is .899, which is very high, indicating that these two variables are very highly positively correlated. Additionally, the p-value is very small, indicating with a high degree of confidence that this correlation is statistically significant and is not due to chance alone.
+
+##Question 5
+
+**Run a simple linear regression predicting total.medals from athletes.**  
+
+```{r linear model 1, echo = TRUE}
+model1 <- lm(total.medals ~ athletes, data = Olympics2014)
+summary(model1)
+```
+
+**(a) Interpret the estimates of the slope and intercept coefficients in the context of the problem.**  
+
+The intercept of this model does not tell you much – only that the fit line intersects the y-axis when the number of athletes equals -.556596. This does not mean much in reality, other than the obvious: a country must send more than 0 athletes to receive any medals.  
+
+The slope coefficient tells you that with every additional athlete added, the number of total medals received increases on average by .120063. 
+
+**(b) What is the percentage of variation in total.medals explained by athletes?** 
+
+The r-squared value is .8094, and this means that approximately 80.94% of the total variation of total medals (away from the global mean) is explained by adding the athletes variable. 
+
+**(c) Predict the number of medals in a country if the number of athletes sent was 20.** 
+
+```{r predict 1, echo = TRUE}
+predict(model1, data.frame(athletes = 20))
+```
+
+The model predicts that a country that sends 20 athletes to the 2014 Olympics would receive 1.844664 total medals on average.
+
+**(d) Explain any suspicion you might have that other factors might explain the observed relationship between the number of athletes and medals.**
+
+I would first be concerned about whether the athletes variables fits with the assumptions necessary for the linear model. I would wonder if the athletes variable would fit with Simple Linear Regression assumption #5 – that athletes variable has homoskedasticity.  I wonder if countries that send few athletes would have smaller variances in the total number of medals they receive, and if countries that send many athletes were have high variances in the total number of medals they receive.
+
+Additionally, I think this relationship can be explained in part because of the selection process for how athletes reach the olympics. There are many qualifying rounds that weed out athletes who may perform below a certain competative standard. This acts as a causal mechanism to explain the correlation between athletes sent to the Olympics and total medals - the more athletes from a country that qualify for the Olympics, the more medals that country is likely to receive. 
+
+##Question 6
+
+**Which country has the largest negative residual in our model from question 5?**
+
+```{r largest negative residual, echo = TRUE}
+resid1 <- resid(model1)
+resid1[resid1==min(resid1)] #country 76 has the most negative residual
+Olympics2014[76, ] #Switzerland has the most negative residual
+```
+
+**Which country has the largest positive residual? (hint see the script from week 4)** 
+
+```{r largest positive residual, echo = TRUE}
+resid1[resid1==max(resid1)] #country 58 has the largest positive residual
+Olympics2014[58, ] #the Netherlands has the largest positive residual
+```
+
+**Tell me what these large positive and large negative residuals mean within the context of our data and model.**
+
+Switzerland had the largest negative residual. In the context of the data, this means that Switzerland acquired a much lower number of total medals compared to what our model would predict given that Switzerland sent 168 athletes to the 2014 Olympics. 
+
+The Netherlands had the highest positive residual. In the context of the data, this means that the Netherlands acquired a much higher number of total medals compared to what our model would predict given that the Netherlands only sent 41 athletes to the 2014 Olympics.
+
+##Question 7
+
+**Fit a regression model with total.medals as the dependent variable and athletes, precipitation, and elevation as the predictors.**  
+
+```{r linear model 2, echo = TRUE}
+model2 <- lm(total.medals~athletes + precipitation + elevation, data=Olympics2014)
+summary(model2)
+```
+
+**(a) What percentage of the variation in the dependent variable is explained by the predictors?** 
+
+The r-squared value is .8098, which means that this model accounts for about 80.98% of the variation in the total.medals variable. 
+
+**(b) Ignoring whether the predictor is significant or not, interpret the coefficient estimate on precipitation.  Be specific when discussing the relationship.**  
+
+The estimated coefficient on the precipitation variable is 2.794 x 10-5, or .00002794. This means that with each additional millimeter of precipitation (i.e. with each additional unit as defined by the precipitation variable), the total number of medals in this model is predicted to increase by .00002794. 
+
+**(c) How do we interpret the p-value for precipitation?**  
+
+The p-value for the precipitation is .998, indicating that we definitely cannot reject the null-hypothesis that the true value of the coefficient on precipitation variable is 0. In other words, there is a very high likelihood that the precipitation coefficient calculated by our model is due to chance alone, and if we were to re-sample the dataset, we would see a coefficient of .00002794 or greater in 99.8% of all the samples. 
+
+##Question 8
+
+**Compute a correlation test between the residuals of the model you ran in Question 7 with the fitted or predicted values from that model.** 
+
+```{r corr test 2, echo = TRUE}
+resid2 <- resid(model2)
+predict2 <- predict(model2)
+cor.test(resid2, predict2)
+```
+
+**Compute a correlation test between the residuals and athletes.**
+
+```{r corr test 3, echo = TRUE}
+cor.test(resid2, Olympics2014$athletes)
+```
+
+**What do you make of the results from these two correlation tests?**
+
+Both the first correlation test and the second correlation test return a correlation value that is effectively zero, something that is confirmed by each test having a p-value of 1. In essence, this test confirms that the values we got for each correlation are due entirely to chance. These correlation results mean that the linear model calculation is working as intended. 
+
+The reason the first correlation test is 0 has to do with the Ordinary Least Square calculation that is done as part of a linear regression calculation. By minimizing the squares between the fit line and the data, the model is removing any correlation between the residuals (i.e. the variation that the model cannot account for) and the predicted values (i.e. the variation that the model can account for). When the linear model calculation is correct and the sum of the squares of the residuals is minimized, it makes perfect sense for this correlation to be 0. 
+
+Likewise with the second correlation test between athletes and the model residuals, the linear model calculates the predicted values using the athletes variable. The residuals are what is not accounted for in that calculation. If there were any correlation between the residuals and the athletes variable, that would mean the sum of the squares was not minimized and there would be a better fit line available that could be calculated. 
+
