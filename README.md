@@ -22,7 +22,7 @@ The full code for the residential property assessment algorithm used by the Cook
 
 2. An analysis of how people travel to work in Chicago census tracts
 
-The file "ModeAnalysis.R" contains the code that I wrote as a Mayoral Fellow to analyze the mode of transportation that Chicago residents use to get to work. This is an analysis of data collected by the Census Bureau for the American Community Survey. The results of this data analysis were compiled into Powerpoint slides, which are included in the file "eTOD Mode Data Analysis Slides.pdf"
+The file "ModeAnalysis.R" contains the code that I wrote as a Mayoral Fellow to analyze the mode of transportation that Chicago residents use to get to work. This is an analysis of data collected for the American Community Survey by the Census Bureau. The results of this data analysis were compiled into PowerPoint slides, which are included in the file "eTOD Mode Data Analysis Slides.pdf"
 
 3. Code used to identify City-Owned Laned that it is elligible for "transit-oriented development" incentives. 
 
