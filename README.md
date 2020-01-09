@@ -1,5 +1,4 @@
-# SampleWork01.2020
-Sample Work as of January 2020
+# Sample Work as of January 2020
 
 This repository contains a sample of my work as of January, 2020. It is divided into two folders: work from inside the classroom and work from outside of the classroom that comes from my internship and fellowship experiences. This README file contains additional information to provide context for the work that is included in this repository. 
 
@@ -13,12 +12,11 @@ This folder contains five files that are representative of three different proje
 
 In the file "CCAO_Code_Fragments.R" are samples of code written during my time as a Data Science Intern at the Cook County Asssessor's Office. It includes three sub-examples: 
 
-(1), a function that was written to efficiently recode variables from one data type to another; 
+(1), a function that was written to efficiently recode multiple variables from one data type to another in one line of code; 
 
-(2), code classifying properties into three "price terciles" using a probit logistic regression model, where every property is predicted to be in the low, medium, or high price tercile. 
+(2), code classifying properties into three "price terciles" using a probit logistic regression model, where every property is predicted to be in the low, medium, or high price tercile; 
 
 (3) code that is used to implement different models for predicting the value of every property within a given township. Specifically, I wrote code to implement Quantile regression and Gradient Boosting Machine models as part of the property assesssment algorithm.
-
 
 The full code for the residential property assessment algorithm used by the Cook County Assessor's Office is publically available at https://gitlab.com/ccao-data-science---modeling/ccao_sf_cama_dev. Please note that the code they use has changed significnatly since my time as a Data Science Intern.
 
