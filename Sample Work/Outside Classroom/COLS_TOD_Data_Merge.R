@@ -2,7 +2,7 @@
 #of either a CTA or Metra station and thus eligible for TOD zoning incentives. 
 
 #Set wd
-setwd("~/Documents/Mayor's Office/eTOD/City-Owned Land")
+#setwd("") #redacted for privacy purposes
 
 #load libraries
 library(sf)
@@ -11,7 +11,7 @@ library(tmap)
 library(dplyr)
 
 #load data
-COLS <- read.csv("~/Documents/Mayor's Office/eTOD/City-Owned Land/City-Owned_Land_Inventory.csv")
+COLS <- read.csv("City-Owned_Land_Inventory.csv")
 
 #load shapefiles
 Metra_no_TOD <- st_as_sf(st_read("METRA__radius_(No_Transit_Locations).shp"))
@@ -26,7 +26,6 @@ CTA_no_TOD <- st_transform(CTA_no_TOD, crs = 4326)
 CTA_TOD <- st_transform(CTA_TOD, crs = 4326)
 
 #need to remove NAs and examples where latitutde and longitude = 0 
-#NOTE: this is about 2000 rows - 10% of the dataset. That may be a problem
 COLS <- COLS[!is.na(COLS$Latitude) | !is.na(COLS$Longitude), ]
 COLS <- COLS[COLS$Latitude != 0 | COLS$Longitude != 0, ]
 
@@ -88,5 +87,5 @@ COLS_TOD_map3 <- tm_shape(COLS_TOD_Intersect_sf) +
 #export this map as a Widget
 tmap_save(tm = COLS_TOD_map3, filename = "COLS_TOD_Map.html")
 
-#sort dataset by "owned by City
+#sort dataset by "owned by City"
 COLS_TOD_Owned <- COLS_TOD_Intersect %>% filter(Property.Status == "Owned by City")
