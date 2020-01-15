@@ -5,7 +5,7 @@
 #R Script Author: Dan Forbush, 2019 Mayoral Fellow
 
 #Set WD
-setwd("S:/THINKTANK_1N/2019 Summer Fellows/Projects/Equitable Transit-Oriented Development Plan/Mode Data Analysis")
+#setwd() - Actual directory has been redacted for security purposes.
 
 #load libraries
 library(dplyr)
@@ -15,7 +15,7 @@ library(sf)
 library(tmap)
 
 #load data
-Mode_2012_2016 <- read.csv("S:/THINKTANK_1N/2019 Summer Fellows/Projects/Equitable Transit-Oriented Development Plan/Mode Data Analysis/Mode_Data_CTPP_2012_2016.csv")
+Mode_2012_2016 <- read.csv(Mode_Data_CTPP_2012_2016.csv)
 
 #Remove commas and convert some classes
 Mode_2012_2016$Workers_16_and_Over <- sub(",", "", Mode_2012_2016$Workers_16_and_Over)
@@ -160,7 +160,7 @@ walkm <- tm_shape(chi_sf, is.master = TRUE) +
 tmap_arrange(carm, elm, busm, railm, bikem, walkm, ncol = 3, nrow = 2)
 
 #repeat with 2006-2010 Data
-Mode_2006_2010 <- read.csv("S:/THINKTANK_1N/2019 Summer Fellows/Projects/Equitable Transit-Oriented Development Plan/Mode Data Analysis/Mode_Data_CTPP_2006_2010.csv")
+Mode_2006_2010 <- read.csv("Mode_Data_CTPP_2006_2010.csv")
 
 #Remove commas and convert some classes
 Mode_2006_2010$Workers_16_and_Over <- sub(",", "", Mode_2006_2010$Workers_16_and_Over)
@@ -314,17 +314,3 @@ CTA_no_TOD_overlap <- st_intersects(st_centroid(chi_sf_old_trans), CTA_no_transi
 chi_sf_CTAnoTOD <- chi_sf_trans[lengths(CTA_no_TOD_overlap)>0, ]
 chi_df_CTAnoTOD <- as.data.frame(chi_sf_CTAnoTOD)
 colMeans(chi_df_CTAnoTOD[sapply(chi_df_CTAnoTOD, is.numeric)], na.rm = TRUE)
-
-#Compare the new and old dataframes 
-#NOTE: I DID NOT END UP USING THIS IN MY ANALYSIS
-library(compareDF)
-Car_compare <- compare_df(df_new = Mode_by_residence, df_old = Mode_by_residence_old, c("RESIDENCE", "Pct_Car"))
-print(Car_compare$html_output)
-car_compare_map <- sp::merge(y = chi, x = Car_compare$comparison_df, by.y = 'namelsad10', by.x = 'RESIDENCE')
-car_compare_map <- st_as_sf(car_compare_map)
-
-tm_shape(car_compare_map, is.master = TRUE) +
-  tm_polygons(col = "chng_type", palette = "PuOr") +
-  tm_shape(CTA_no_transit) + tm_polygons(col = "springgreen", alpha = .4) +
-  tm_shape(CTA_transit) + tm_polygons(col = "darkgreen", alpha = .4) +
-  tm_layout(main.title = "Change in Car Use - CTA Stations")
