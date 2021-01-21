@@ -14,6 +14,8 @@ setwd(dirname(current_path))
 rm(current_path)
 print(getwd())
 
+print("Hello!")
+
 #load data - tornados - includes files from the X-drive that were downloaded by Yingfei (I think)
 #I will limit data to 2008 and later so we only have to worry about the EF scale and not the F scale
 options(scipen = 99999)
