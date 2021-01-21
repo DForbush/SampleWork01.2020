@@ -10,8 +10,6 @@ library(data.table)
 
 #SetWD
 current_path <- getActiveDocumentContext()$path 
-tornado_path <- "C:/Users/dforbush/OneDrive - Cambridge Systematics/Mississippi LRTP/GIS/Data/Tornado"
-winterstorm_path <- "C:/Users/dforbush/OneDrive - Cambridge Systematics/Mississippi LRTP/GIS/Data/Winter Storm"
 setwd(dirname(current_path))
 rm(current_path)
 print(getwd())
