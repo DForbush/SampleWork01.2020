@@ -1,0 +1,369 @@
+EVENT_ID,CZ_NAME_STR,BEGIN_LOCATION,BEGIN_DATE,BEGIN_TIME,EVENT_TYPE,MAGNITUDE,TOR_F_SCALE,DEATHS_DIRECT,INJURIES_DIRECT,DAMAGE_PROPERTY_NUM,DAMAGE_CROPS_NUM,STATE_ABBR,CZ_TIMEZONE,MAGNITUDE_TYPE,EPISODE_ID,CZ_TYPE,CZ_FIPS,WFO,INJURIES_INDIRECT,DEATHS_INDIRECT,SOURCE,FLOOD_CAUSE,TOR_LENGTH,TOR_WIDTH,BEGIN_RANGE,BEGIN_AZIMUTH,END_RANGE,END_AZIMUTH,END_LOCATION,BEGIN_LAT,BEGIN_LON,END_LAT,END_LON,EVENT_NARRATIVE,EPISODE_NARRATIVE,ABSOLUTE_ROWNUMBER
+5130863,WASHINGTON (ZONE), ,1/27/2000,500,Heavy Snow, , ,0,0,150000,0,MS,CST, ,1090771,Z,34,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,1
+5130862,SUNFLOWER (ZONE), ,1/27/2000,600,Heavy Snow, , ,0,0,100000,0,MS,CST, ,1090771,Z,19,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,2
+5130867,ISSAQUENA (ZONE), ,1/27/2000,600,Ice Storm, , ,0,0,30000,0,MS,CST, ,1090772,Z,40,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,3
+5130799,BOLIVAR (ZONE), ,1/27/2000,600,Heavy Snow, , ,0,0,100000,0,MS,CST, ,1090771,Z,18,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,4
+5130877,WARREN (ZONE), ,1/27/2000,700,Ice Storm, , ,0,0,15000,0,MS,CST, ,1090772,Z,47,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,5
+5130876,SHARKEY (ZONE), ,1/27/2000,700,Ice Storm, , ,0,0,30000,0,MS,CST, ,1090772,Z,41,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,6
+5130804,HOLMES (ZONE), ,1/27/2000,800,Heavy Snow, , ,0,0,35000,0,MS,CST, ,1090771,Z,36,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,7
+5130857,LEFLORE (ZONE), ,1/27/2000,800,Heavy Snow, , ,0,0,100000,0,MS,CST, ,1090771,Z,25,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,8
+5130800,CARROLL (ZONE), ,1/27/2000,800,Heavy Snow, , ,0,0,40000,0,MS,CST, ,1090771,Z,27,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,9
+5130805,HUMPHREYS (ZONE), ,1/27/2000,800,Heavy Snow, , ,0,0,15000,0,MS,CST, ,1090771,Z,35,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,10
+5130878,YAZOO (ZONE), ,1/27/2000,900,Ice Storm, , ,0,0,30000,0,MS,CST, ,1090772,Z,42,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,11
+5130859,MONTGOMERY (ZONE), ,1/27/2000,1100,Heavy Snow, , ,0,0,75000,0,MS,CST, ,1090771,Z,28,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,12
+5131746,ATTALA (ZONE), ,1/27/2000,1100,Heavy Snow, , ,0,0,20000,0,MS,CST, ,1090771,Z,37,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,13
+5130803,GRENADA (ZONE), ,1/27/2000,1200,Heavy Snow, , ,0,0,100000,0,MS,CST, ,1090771,Z,26,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,14
+5130866,HINDS (ZONE), ,1/27/2000,1200,Ice Storm, , ,0,0,10000,0,MS,CST, ,1090772,Z,48,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,15
+5130864,WEBSTER (ZONE), ,1/27/2000,1200,Heavy Snow, , ,0,0,65000,0,MS,CST, ,1090771,Z,29,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,16
+5130871,MADISON (ZONE), ,1/27/2000,1200,Ice Storm, , ,0,0,35000,0,MS,CST, ,1090772,Z,43,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,17
+5130870,LEAKE (ZONE), ,1/27/2000,1300,Ice Storm, , ,0,0,30000,0,MS,CST, ,1090772,Z,44,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,18
+5130801,CHOCTAW (ZONE), ,1/27/2000,1300,Heavy Snow, , ,0,0,40000,0,MS,CST, ,1090771,Z,32,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,19
+5130874,RANKIN (ZONE), ,1/27/2000,1300,Ice Storm, , ,0,0,10000,0,MS,CST, ,1090772,Z,49,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,20
+5130861,OKTIBBEHA (ZONE), ,1/27/2000,1400,Heavy Snow, , ,0,0,75000,0,MS,CST, ,1090771,Z,33,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,21
+5130875,SCOTT (ZONE), ,1/27/2000,1400,Ice Storm, , ,0,0,10000,0,MS,CST, ,1090772,Z,50,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,22
+5130873,NEWTON (ZONE), ,1/27/2000,1500,Ice Storm, , ,0,0,10000,0,MS,CST, ,1090772,Z,51,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,23
+5130872,NESHOBA (ZONE), ,1/27/2000,1500,Ice Storm, , ,0,0,30000,0,MS,CST, ,1090772,Z,45,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,24
+5130802,CLAY (ZONE), ,1/27/2000,1500,Heavy Snow, , ,0,0,35000,0,MS,CST, ,1090771,Z,30,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,25
+5130865,WINSTON (ZONE), ,1/27/2000,1600,Heavy Snow, , ,0,0,35000,0,MS,CST, ,1090771,Z,38,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,26
+5130860,NOXUBEE (ZONE), ,1/27/2000,1700,Heavy Snow, , ,0,0,30000,0,MS,CST, ,1090771,Z,39,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,27
+5130868,KEMPER (ZONE), ,1/27/2000,1700,Ice Storm, , ,0,0,30000,0,MS,CST, ,1090772,Z,46,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,28
+5130869,LAUDERDALE (ZONE), ,1/27/2000,1700,Ice Storm, , ,0,0,15000,0,MS,CST, ,1090772,Z,52,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,29
+5130205,ALCORN (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,5,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,30
+5130206,BENTON (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,3,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,31
+5130207,CALHOUN (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,22,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,32
+5130215,MONROE (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,24,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,33
+5130216,PANOLA (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,12,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,34
+5130217,PONTOTOC (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,15,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,35
+5130218,PRENTISS (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,9,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,36
+5130219,QUITMAN (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,11,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,37
+5130220,TALLAHATCHIE (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,20,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,38
+5130208,CHICKASAW (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,23,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,39
+5130209,COAHOMA (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,10,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,40
+5130210,DE SOTO (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,1,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,41
+5130211,ITAWAMBA (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,17,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,42
+5130212,LAFAYETTE (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,13,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,43
+5130213,LEE (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,16,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,44
+5130214,MARSHALL (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,2,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,45
+5130221,TATE (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,8,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,46
+5130222,TUNICA (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,7,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,47
+5130223,UNION (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,14,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,48
+5130224,YALOBUSHA (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,0,0,MS,CST, ,1090552,Z,21,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,49
+5130858,LOWNDES (ZONE), ,1/27/2000,1800,Heavy Snow, , ,0,0,50000,0,MS,CST, ,1090771,Z,31,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,50
+5128057,WAYNE (ZONE), ,1/27/2000,2200,Sleet, , ,0,0,0,0,MS,CST, ,1090222,Z,67,MOB,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,51
+5128058,GREENE (ZONE), ,1/27/2000,2200,Sleet, , ,0,0,0,0,MS,CST, ,1090222,Z,76,MOB,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,52
+5128056,PERRY (ZONE), ,1/27/2000,2200,Sleet, , ,0,0,0,0,MS,CST, ,1090222,Z,75,MOB,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,53
+5176973,WASHINGTON (ZONE), ,12/13/2000,300,Ice Storm, , ,0,0,5000,0,MS,CST, ,1105629,Z,34,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,54
+5176881,BOLIVAR (ZONE), ,12/13/2000,300,Ice Storm, , ,0,0,3000,0,MS,CST, ,1105629,Z,18,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,55
+5176882,SUNFLOWER (ZONE), ,12/13/2000,500,Ice Storm, , ,0,0,5000,0,MS,CST, ,1105629,Z,19,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,56
+5167293,COAHOMA (ZONE), ,12/13/2000,800,Ice Storm, , ,0,0,10000,0,MS,CST, ,1105265,Z,10,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,57
+5167295,TUNICA (ZONE), ,12/13/2000,800,Ice Storm, , ,0,0,10000,0,MS,CST, ,1105265,Z,7,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,58
+5167294,DE SOTO (ZONE), ,12/13/2000,800,Ice Storm, , ,0,0,10000,0,MS,CST, ,1105265,Z,1,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,59
+5165665,PRENTISS (ZONE), ,12/20/2000,2000,Winter Storm, , ,0,0,1000,0,MS,CST, ,1105268,Z,9,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,60
+5165664,PONTOTOC (ZONE), ,12/20/2000,2000,Winter Storm, , ,0,0,1000,0,MS,CST, ,1105268,Z,15,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,61
+5165663,MONROE (ZONE), ,12/20/2000,2000,Winter Storm, , ,0,0,1000,0,MS,CST, ,1105268,Z,24,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,62
+5165659,CHICKASAW (ZONE), ,12/20/2000,2000,Winter Storm, , ,0,0,1000,0,MS,CST, ,1105268,Z,23,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,63
+5165662,LOWNDES (ZONE), ,12/20/2000,2000,Winter Storm, , ,0,0,1000,0,MS,CST, ,1105268,Z,31,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,64
+5165661,LEE (ZONE), ,12/20/2000,2000,Winter Storm, , ,0,0,1000,0,MS,CST, ,1105268,Z,16,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,65
+5165658,CALHOUN (ZONE), ,12/20/2000,2000,Winter Storm, , ,0,0,1000,0,MS,CST, ,1105268,Z,22,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,66
+5165660,ITAWAMBA (ZONE), ,12/20/2000,2000,Winter Storm, , ,0,0,1000,0,MS,CST, ,1105268,Z,17,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,67
+5165667,UNION (ZONE), ,12/20/2000,2000,Winter Storm, , ,0,0,1000,0,MS,CST, ,1105268,Z,14,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,68
+5165666,TISHOMINGO (ZONE), ,12/20/2000,2000,Winter Storm, , ,0,0,1000,0,MS,CST, ,1105268,Z,6,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,69
+5176974,CHOCTAW (ZONE), ,12/21/2000,130,Ice Storm, , ,0,0,1000,0,MS,CST, ,1105630,Z,32,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,70
+5176979,WINSTON (ZONE), ,12/21/2000,130,Ice Storm, , ,0,0,1000,0,MS,CST, ,1105630,Z,38,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,71
+5176978,WEBSTER (ZONE), ,12/21/2000,130,Ice Storm, , ,0,0,1000,0,MS,CST, ,1105630,Z,29,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,72
+5176977,NOXUBEE (ZONE), ,12/21/2000,130,Ice Storm, , ,0,0,1000,0,MS,CST, ,1105630,Z,39,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,73
+5176976,MONTGOMERY (ZONE), ,12/21/2000,130,Ice Storm, , ,0,0,1000,0,MS,CST, ,1105630,Z,28,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,74
+5176975,GRENADA (ZONE), ,12/21/2000,130,Ice Storm, , ,0,0,1000,0,MS,CST, ,1105630,Z,26,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,75
+5176980,CLAY (ZONE), ,12/21/2000,230,Ice Storm, , ,0,0,2000,0,MS,CST, ,1105630,Z,30,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,76
+5176982,OKTIBBEHA (ZONE), ,12/21/2000,230,Ice Storm, , ,0,0,2000,0,MS,CST, ,1105630,Z,33,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,77
+5176981,LOWNDES (ZONE), ,12/21/2000,230,Ice Storm, , ,0,0,2000,0,MS,CST, ,1105630,Z,31,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,78
+5168865,WAYNE (ZONE), ,12/21/2000,500,Winter Storm, , ,0,0,0,0,MS,CST, ,1105280,Z,67,MOB,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,79
+5176983,WASHINGTON (ZONE), ,12/31/2000,1530,Heavy Snow, , ,0,0,0,0,MS,CST, ,1105631,Z,34,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,80
+5176984,BOLIVAR (ZONE), ,12/31/2000,1530,Heavy Snow, , ,0,0,0,0,MS,CST, ,1105631,Z,18,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,81
+5176985,HUMPHREYS (ZONE), ,12/31/2000,1630,Heavy Snow, , ,0,0,0,0,MS,CST, ,1105631,Z,35,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,82
+5176987,SUNFLOWER (ZONE), ,12/31/2000,1630,Heavy Snow, , ,0,0,0,0,MS,CST, ,1105631,Z,19,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,83
+5176986,LEFLORE (ZONE), ,12/31/2000,1630,Heavy Snow, , ,0,0,0,0,MS,CST, ,1105631,Z,25,JAN,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,84
+5228050,GREENE (ZONE), ,1/1/2001,300,Winter Storm, , ,0,0,0,0,MS,CST, ,1110294,Z,76,MOB,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,85
+5228051,PERRY (ZONE), ,1/1/2001,300,Winter Storm, , ,0,0,0,0,MS,CST, ,1110294,Z,75,MOB,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,86
+5228052,WAYNE (ZONE), ,1/1/2001,300,Winter Storm, , ,0,0,0,0,MS,CST, ,1110294,Z,67,MOB,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,87
+5278462,WILKINSON (ZONE), ,1/1/2002,1500,Winter Storm, , ,0,0,0,0,MS,CST, ,1130216,Z,68,LIX,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,88
+5278465,WALTHALL (ZONE), ,1/1/2002,1500,Winter Storm, , ,0,0,0,0,MS,CST, ,1130216,Z,71,LIX,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,89
+5278464,PIKE (ZONE), ,1/1/2002,1500,Winter Storm, , ,0,0,0,0,MS,CST, ,1130216,Z,70,LIX,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,90
+5278463,AMITE (ZONE), ,1/1/2002,1500,Winter Storm, , ,0,0,0,0,MS,CST, ,1130216,Z,69,LIX,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,91
+5276849,GEORGE (ZONE), ,1/1/2002,2200,Winter Storm, , ,0,0,0,0,MS,CST, ,1130252,Z,79,MOB,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,92
+5276852,STONE (ZONE), ,1/1/2002,2200,Winter Storm, , ,0,0,0,0,MS,CST, ,1130252,Z,78,MOB,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,93
+5277809,JASPER (ZONE), ,1/1/2002,2200,Heavy Snow, , ,0,0,5000,0,MS,CST, ,1130073,Z,57,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,94
+5277808,JONES (ZONE), ,1/1/2002,2200,Heavy Snow, , ,0,0,5000,0,MS,CST, ,1130073,Z,66,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,95
+5276853,WAYNE (ZONE), ,1/1/2002,2200,Winter Storm, , ,0,0,0,0,MS,CST, ,1130252,Z,67,MOB,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,96
+5277807,FORREST (ZONE), ,1/1/2002,2200,Heavy Snow, , ,0,0,5000,0,MS,CST, ,1130073,Z,74,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,97
+5277806,LAMAR (ZONE), ,1/1/2002,2200,Heavy Snow, , ,0,0,5000,0,MS,CST, ,1130073,Z,73,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,98
+5277805,MARION (ZONE), ,1/1/2002,2200,Heavy Snow, , ,0,0,5000,0,MS,CST, ,1130073,Z,72,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,99
+5277810,CLARKE (ZONE), ,1/1/2002,2200,Heavy Snow, , ,0,0,5000,0,MS,CST, ,1130073,Z,58,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,100
+5276850,GREENE (ZONE), ,1/1/2002,2200,Winter Storm, , ,0,0,0,0,MS,CST, ,1130252,Z,76,MOB,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,101
+5276851,PERRY (ZONE), ,1/1/2002,2200,Winter Storm, , ,0,0,0,0,MS,CST, ,1130252,Z,75,MOB,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,102
+5280968,DE SOTO (ZONE), ,2/5/2002,2100,Winter Storm, , ,0,0,0,0,MS,CST, ,1131413,Z,1,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,103
+5280974,ALCORN (ZONE), ,2/5/2002,2100,Winter Storm, , ,0,0,0,0,MS,CST, ,1131413,Z,5,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,104
+5280973,TIPPAH (ZONE), ,2/5/2002,2100,Winter Storm, , ,0,0,0,0,MS,CST, ,1131413,Z,4,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,105
+5280972,BENTON (ZONE), ,2/5/2002,2100,Winter Storm, , ,0,0,0,0,MS,CST, ,1131413,Z,3,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,106
+5280971,MARSHALL (ZONE), ,2/5/2002,2100,Winter Storm, , ,0,0,0,0,MS,CST, ,1131413,Z,2,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,107
+5280970,TUNICA (ZONE), ,2/5/2002,2100,Winter Storm, , ,0,0,0,0,MS,CST, ,1131413,Z,7,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,108
+5280969,TATE (ZONE), ,2/5/2002,2100,Winter Storm, , ,0,0,0,0,MS,CST, ,1131413,Z,8,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,109
+5345520,ALCORN (ZONE), ,2/6/2003,100,Heavy Snow, , ,0,0,1000,0,MS,CST, ,1147967,Z,5,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,110
+5345521,BENTON (ZONE), ,2/6/2003,100,Heavy Snow, , ,0,0,1000,0,MS,CST, ,1147967,Z,3,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,111
+5345522,TIPPAH (ZONE), ,2/6/2003,100,Heavy Snow, , ,0,0,1000,0,MS,CST, ,1147967,Z,4,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,112
+5342928,BOLIVAR (ZONE), ,2/25/2003,240,Ice Storm, , ,0,0,100000,0,MS,CST, ,1147379,Z,18,JAN,0,0,NEWSPAPER, , , , , , , , , , , , ,,,113
+5342929,WASHINGTON (ZONE), ,2/25/2003,250,Ice Storm, , ,0,0,30000,0,MS,CST, ,1147379,Z,34,JAN,0,0,NEWSPAPER, , , , , , , , , , , , ,,,114
+5342930,BOLIVAR (ZONE), ,2/26/2003,0,Ice Storm, , ,0,0,10000,0,MS,CST, ,1147380,Z,18,JAN,0,0,NEWSPAPER, , , , , , , , , , , , ,,,115
+5342931,SUNFLOWER (ZONE), ,2/26/2003,0,Ice Storm, , ,0,0,5000,0,MS,CST, ,1147380,Z,19,JAN,0,0,NEWSPAPER, , , , , , , , , , , , ,,,116
+5386156,MARSHALL (ZONE), ,2/15/2004,400,Heavy Snow, , ,0,0,100,0,MS,CST, ,1166192,Z,2,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,117
+5386278,UNION (ZONE), ,2/15/2004,400,Heavy Snow, , ,0,0,100,0,MS,CST, ,1166192,Z,14,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,118
+5386277,TISHOMINGO (ZONE), ,2/15/2004,400,Heavy Snow, , ,0,0,100,0,MS,CST, ,1166192,Z,6,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,119
+5386155,TATE (ZONE), ,2/15/2004,400,Heavy Snow, , ,0,0,100,0,MS,CST, ,1166192,Z,8,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,120
+5386159,ALCORN (ZONE), ,2/15/2004,400,Heavy Snow, , ,0,0,100,0,MS,CST, ,1166192,Z,5,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,121
+5386158,TIPPAH (ZONE), ,2/15/2004,400,Heavy Snow, , ,0,0,100,0,MS,CST, ,1166192,Z,4,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,122
+5386157,BENTON (ZONE), ,2/15/2004,400,Heavy Snow, , ,0,0,100,0,MS,CST, ,1166192,Z,3,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,123
+5430075,COAHOMA (ZONE), ,12/22/2004,1200,Winter Storm, , ,0,0,1000,0,MS,CST, ,1182743,Z,10,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,124
+5430074,TUNICA (ZONE), ,12/22/2004,1200,Winter Storm, , ,0,0,1000,0,MS,CST, ,1182743,Z,7,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,125
+5430073,DE SOTO (ZONE), ,12/22/2004,1200,Winter Storm, , ,0,0,1000,0,MS,CST, ,1182743,Z,1,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,126
+5430080,TIPPAH (ZONE), ,12/22/2004,1200,Winter Storm, , ,0,0,1000,0,MS,CST, ,1182743,Z,4,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,127
+5430079,BENTON (ZONE), ,12/22/2004,1200,Winter Storm, , ,0,0,1000,0,MS,CST, ,1182743,Z,3,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,128
+5430078,MARSHALL (ZONE), ,12/22/2004,1200,Winter Storm, , ,0,0,1000,0,MS,CST, ,1182743,Z,2,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,129
+5430077,PANOLA (ZONE), ,12/22/2004,1200,Winter Storm, , ,0,0,1000,0,MS,CST, ,1182743,Z,12,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,130
+5430076,TATE (ZONE), ,12/22/2004,1200,Winter Storm, , ,0,0,1000,0,MS,CST, ,1182743,Z,8,MEG,0,0,LAW ENFORCEMENT, , , , , , , , , , , , ,,,131
+5430617,BOLIVAR (ZONE), ,12/22/2004,1700,Ice Storm, , ,0,0,300000,0,MS,CST, ,1182729,Z,18,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,132
+5430701,SUNFLOWER (ZONE), ,12/22/2004,1700,Ice Storm, , ,0,0,100000,0,MS,CST, ,1182729,Z,19,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,133
+5431951,HANCOCK (ZONE), ,12/25/2004,900,Winter Storm, , ,0,0,0,0,MS,CST, ,1187150,Z,80,LIX,0,0,NWS STORM SURVEY, , , , , , , , , , , , ,,,134
+5431952,HARRISON (ZONE), ,12/25/2004,900,Winter Storm, , ,0,0,0,0,MS,CST, ,1187150,Z,81,LIX,0,0,NWS STORM SURVEY, , , , , , , , , , , , ,,,135
+5431953,JACKSON (ZONE), ,12/25/2004,900,Winter Storm, , ,0,0,0,0,MS,CST, ,1187150,Z,82,LIX,0,0,NWS STORM SURVEY, , , , , , , , , , , , ,,,136
+5491030,DE SOTO (ZONE), ,2/10/2006,1100,Winter Storm, , ,0,0,1000,0,MS,CST, ,1204996,Z,1,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,137
+5491034,TATE (ZONE), ,2/10/2006,1100,Winter Storm, , ,0,0,1000,0,MS,CST, ,1204996,Z,8,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,138
+5491033,TUNICA (ZONE), ,2/10/2006,1100,Winter Storm, , ,0,0,1000,0,MS,CST, ,1204996,Z,7,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,139
+5491032,BENTON (ZONE), ,2/10/2006,1100,Winter Storm, , ,0,0,1000,0,MS,CST, ,1204996,Z,3,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,140
+5491031,MARSHALL (ZONE), ,2/10/2006,1100,Winter Storm, , ,0,0,1000,0,MS,CST, ,1204996,Z,2,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,141
+5490037,TIPPAH (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,4,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,142
+5490043,COAHOMA (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,10,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,143
+5490042,PRENTISS (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,9,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,144
+5490041,TATE (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,8,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,145
+5490040,TUNICA (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,7,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,146
+5490036,BENTON (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,3,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,147
+5490035,MARSHALL (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,2,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,148
+5490034,DE SOTO (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,1,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,149
+5490050,ITAWAMBA (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,17,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,150
+5490049,LEE (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,16,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,151
+5490048,PONTOTOC (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,15,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,152
+5490038,ALCORN (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,5,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,153
+5490039,TISHOMINGO (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,6,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,154
+5490044,QUITMAN (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,11,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,155
+5490045,PANOLA (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,12,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,156
+5490046,LAFAYETTE (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,13,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,157
+5490047,UNION (ZONE), ,2/18/2006,600,Winter Storm, , ,0,0,1000,0,MS,CST, ,1205000,Z,14,MEG,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,158
+5493068,SUNFLOWER (ZONE), ,2/18/2006,1200,Ice Storm, , ,0,0,10000,0,MS,CST, ,1204064,Z,19,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,159
+5493067,BOLIVAR (ZONE), ,2/18/2006,1200,Ice Storm, , ,0,0,50000,0,MS,CST, ,1204064,Z,18,JAN,0,0,EMERGENCY MANAGER, , , , , , , , , , , , ,,,160
+5492159,ATTALA (ZONE), ,2/20/2006,800,Ice Storm, , ,0,0,300000,0,MS,CST, ,1204074,Z,37,JAN,0,0,NWS STORM SURVEY, , , , , , , , , , , , ,,,161
+5492218,LEAKE (ZONE), ,2/20/2006,800,Ice Storm, , ,0,0,120000,0,MS,CST, ,1204074,Z,44,JAN,0,0,NWS STORM SURVEY, , , , , , , , , , , , ,,,162
+5492222,YAZOO (ZONE), ,2/20/2006,800,Ice Storm, , ,0,0,100000,0,MS,CST, ,1204074,Z,42,JAN,0,0,NWS STORM SURVEY, , , , , , , , , , , , ,,,163
+5492220,OKTIBBEHA (ZONE), ,2/20/2006,800,Ice Storm, , ,0,0,50000,0,MS,CST, ,1204074,Z,33,JAN,0,0,NWS STORM SURVEY, , , , , , , , , , , , ,,,164
+5492217,HOLMES (ZONE), ,2/20/2006,800,Ice Storm, , ,0,0,50000,0,MS,CST, ,1204074,Z,36,JAN,0,0,NWS STORM SURVEY, , , , , , , , , , , , ,,,165
+5492216,CHOCTAW (ZONE), ,2/20/2006,800,Ice Storm, , ,0,0,70000,0,MS,CST, ,1204074,Z,32,JAN,0,0,NWS STORM SURVEY, , , , , , , , , , , , ,,,166
+5492219,MADISON (ZONE), ,2/20/2006,800,Ice Storm, , ,0,0,100000,0,MS,CST, ,1204074,Z,43,JAN,0,0,NWS STORM SURVEY, , , , , , , , , , , , ,,,167
+5492221,WINSTON (ZONE), ,2/20/2006,800,Ice Storm, , ,0,0,500000,0,MS,CST, ,1204074,Z,38,JAN,0,0,NWS STORM SURVEY, , , , , , , , , , , , ,,,168
+11400,TALLAHATCHIE (ZONE), ,1/31/2007,1600,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2324,Z,20,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,169
+11401,YALOBUSHA (ZONE), ,1/31/2007,1600,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2324,Z,21,MEG,0,0,Trained Spotter, , , , , , , , , , , , ,,,170
+11402,LEE (ZONE), ,1/31/2007,1600,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2324,Z,16,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,171
+15790,TUNICA (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,7,MEG,0,0,Trained Spotter, , , , , , , , , , , , ,,,172
+15791,DE SOTO (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,1,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,173
+15792,TATE (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,8,MEG,0,0,Unknown, , , , , , , , , , , , ,,,174
+15793,MARSHALL (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,2,MEG,0,0,Unknown, , , , , , , , , , , , ,,,175
+15794,BENTON (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,3,MEG,0,0,Unknown, , , , , , , , , , , , ,,,176
+15795,TIPPAH (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,4,MEG,0,0,Unknown, , , , , , , , , , , , ,,,177
+15802,TALLAHATCHIE (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,20,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,178
+15803,PANOLA (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,12,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,179
+15804,QUITMAN (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,11,MEG,0,0,Unknown, , , , , , , , , , , , ,,,180
+15805,COAHOMA (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,10,MEG,0,0,Unknown, , , , , , , , , , , , ,,,181
+15796,ALCORN (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,5,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,182
+15797,PRENTISS (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,9,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,183
+15798,TISHOMINGO (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,6,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,184
+15799,UNION (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,14,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,185
+15800,LAFAYETTE (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,13,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,186
+15801,YALOBUSHA (ZONE), ,2/1/2007,1200,Winter Weather, , ,0,0,0,0,MS,CST-6, ,2999,Z,21,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,187
+76385,JEFFERSON (ZONE), ,1/19/2008,600,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,59,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,188
+76386,ADAMS (ZONE), ,1/19/2008,600,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,60,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,189
+76375,NEWTON (ZONE), ,1/19/2008,610,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,51,JAN,0,0,NWS Employee, , , , , , , , , , , , ,,,190
+76387,FRANKLIN (ZONE), ,1/19/2008,630,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,61,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,191
+76410,LINCOLN (ZONE), ,1/19/2008,630,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,62,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,192
+76414,LAWRENCE (ZONE), ,1/19/2008,630,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,63,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,193
+76380,SIMPSON (ZONE), ,1/19/2008,700,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,55,JAN,0,0,Newspaper, , , , , , , , , , , , ,,,194
+76382,JASPER (ZONE), ,1/19/2008,700,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,57,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,195
+76373,RANKIN (ZONE), ,1/19/2008,700,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,49,JAN,0,0,NWS Employee, , , , , , , , , , , , ,,,196
+76415,JEFFERSON DAVIS (ZONE), ,1/19/2008,700,Heavy Snow, , ,0,0,350000,0,MS,CST-6, ,13642,Z,64,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,197
+76379,COPIAH (ZONE), ,1/19/2008,700,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,54,JAN,0,0,Newspaper, , , , , , , , , , , , ,,,198
+76384,CLARKE (ZONE), ,1/19/2008,700,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,58,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,199
+76381,SMITH (ZONE), ,1/19/2008,700,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,56,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,200
+76418,MARION (ZONE), ,1/19/2008,730,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,72,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,201
+76420,FORREST (ZONE), ,1/19/2008,730,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,74,JAN,0,0,Newspaper, , , , , , , , , , , , ,,,202
+76417,JONES (ZONE), ,1/19/2008,730,Heavy Snow, , ,0,0,100000,0,MS,CST-6, ,13642,Z,66,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,203
+76416,COVINGTON (ZONE), ,1/19/2008,730,Heavy Snow, , ,0,0,500000,0,MS,CST-6, ,13642,Z,65,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,204
+76419,LAMAR (ZONE), ,1/19/2008,730,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,73,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,205
+76383,LAUDERDALE (ZONE), ,1/19/2008,740,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,52,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,206
+76378,KEMPER (ZONE), ,1/19/2008,800,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13642,Z,46,JAN,0,0,Newspaper, , , , , , , , , , , , ,,,207
+77206,WAYNE (ZONE), ,1/19/2008,1030,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,13770,Z,67,MOB,0,0,Emergency Manager, , , , , , , , , , , , ,,,208
+76794,WASHINGTON (ZONE), ,1/25/2008,900,Ice Storm, , ,0,0,200000,0,MS,CST-6, ,13698,Z,34,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,209
+76791,CARROLL (ZONE), ,1/25/2008,900,Ice Storm, , ,0,0,200000,0,MS,CST-6, ,13698,Z,27,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,210
+76741,BOLIVAR (ZONE), ,1/25/2008,900,Ice Storm, , ,0,0,300000,0,MS,CST-6, ,13698,Z,18,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,211
+76789,LEFLORE (ZONE), ,1/25/2008,900,Ice Storm, , ,0,0,200000,0,MS,CST-6, ,13698,Z,25,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,212
+76801,HUMPHREYS (ZONE), ,1/25/2008,900,Ice Storm, , ,0,0,100000,0,MS,CST-6, ,13698,Z,35,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,213
+77912,SHARKEY (ZONE), ,1/25/2008,900,Ice Storm, , ,0,0,100000,0,MS,CST-6, ,13698,Z,41,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,214
+77911,ISSAQUENA (ZONE), ,1/25/2008,900,Ice Storm, , ,0,0,100000,0,MS,CST-6, ,13698,Z,40,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,215
+76788,SUNFLOWER (ZONE), ,1/25/2008,900,Ice Storm, , ,0,0,150000,0,MS,CST-6, ,13698,Z,19,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,216
+77910,HOLMES (ZONE), ,1/25/2008,900,Ice Storm, , ,0,0,100000,0,MS,CST-6, ,13698,Z,36,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,217
+77916,GRENADA (ZONE), ,1/25/2008,1000,Winter Weather, , ,0,0,200000,0,MS,CST-6, ,13698,Z,26,JAN,2,1,Emergency Manager, , , , , , , , , , , , ,,,218
+77918,OKTIBBEHA (ZONE), ,1/25/2008,1000,Winter Weather, , ,0,0,200000,0,MS,CST-6, ,13698,Z,33,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,219
+77917,CLAY (ZONE), ,1/25/2008,1000,Winter Weather, , ,0,0,200000,0,MS,CST-6, ,13698,Z,30,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,220
+72397,PONTOTOC (ZONE), ,1/25/2008,1553,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,15,MEG,1,1,Law Enforcement, , , , , , , , , , , , ,,,221
+72400,LEE (ZONE), ,1/25/2008,1655,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,16,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,222
+72399,LAFAYETTE (ZONE), ,1/25/2008,1700,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,13,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,223
+72404,DE SOTO (ZONE), ,1/25/2008,1700,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,1,MEG,2,0,Law Enforcement, , , , , , , , , , , , ,,,224
+72407,UNION (ZONE), ,1/25/2008,1715,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,14,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,225
+72408,YALOBUSHA (ZONE), ,1/25/2008,1715,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,21,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,226
+72420,TIPPAH (ZONE), ,1/25/2008,1730,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,4,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,227
+72411,MARSHALL (ZONE), ,1/25/2008,1730,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,2,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,228
+72418,CALHOUN (ZONE), ,1/25/2008,1730,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,22,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,229
+72416,CHICKASAW (ZONE), ,1/25/2008,1730,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,23,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,230
+72414,ITAWAMBA (ZONE), ,1/25/2008,1730,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,17,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,231
+72421,TATE (ZONE), ,1/25/2008,1730,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,8,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,232
+72423,PRENTISS (ZONE), ,1/25/2008,1745,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,9,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,233
+72422,BENTON (ZONE), ,1/25/2008,1745,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,3,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,234
+72424,ALCORN (ZONE), ,1/25/2008,1750,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,5,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,235
+72427,PANOLA (ZONE), ,1/25/2008,1750,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,12,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,236
+72426,COAHOMA (ZONE), ,1/25/2008,1750,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,10,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,237
+72425,QUITMAN (ZONE), ,1/25/2008,1750,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,11,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,238
+72428,MONROE (ZONE), ,1/25/2008,1810,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,24,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,239
+72431,TUNICA (ZONE), ,1/26/2008,230,Winter Weather, , ,0,0,0,0,MS,CST-6, ,13083,Z,7,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,240
+91225,BOLIVAR (ZONE), ,3/7/2008,1345,Heavy Snow, , ,0,0,200000,0,MS,CST-6, ,15898,Z,18,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,241
+91240,WASHINGTON (ZONE), ,3/7/2008,1350,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,15898,Z,34,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,242
+91228,SUNFLOWER (ZONE), ,3/7/2008,1400,Heavy Snow, , ,0,0,20000,0,MS,CST-6, ,15898,Z,19,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,243
+86457,DE SOTO (ZONE), ,3/7/2008,1400,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,1,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,244
+86463,DE SOTO (ZONE), ,3/7/2008,1400,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,1,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,245
+86450,TALLAHATCHIE (ZONE), ,3/7/2008,1400,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,20,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,246
+86448,COAHOMA (ZONE), ,3/7/2008,1400,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,10,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,247
+86446,YALOBUSHA (ZONE), ,3/7/2008,1400,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,21,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,248
+86563,TATE (ZONE), ,3/7/2008,1400,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,8,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,249
+86565,TUNICA (ZONE), ,3/7/2008,1400,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,7,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,250
+86442,LEE (ZONE), ,3/7/2008,1500,Winter Weather, , ,0,0,0,0,MS,CST-6, ,15189,Z,16,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,251
+86440,PONTOTOC (ZONE), ,3/7/2008,1500,Winter Weather, , ,0,0,0,0,MS,CST-6, ,15189,Z,15,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,252
+86456,TIPPAH (ZONE), ,3/7/2008,1500,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,4,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,253
+86449,PANOLA (ZONE), ,3/7/2008,1500,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,12,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,254
+86439,LAFAYETTE (ZONE), ,3/7/2008,1500,Winter Weather, , ,0,0,0,0,MS,CST-6, ,15189,Z,13,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,255
+86451,BENTON (ZONE), ,3/7/2008,1500,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,3,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,256
+86452,MARSHALL (ZONE), ,3/7/2008,1500,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,2,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,257
+86445,PRENTISS (ZONE), ,3/7/2008,1500,Winter Weather, , ,0,0,0,0,MS,CST-6, ,15189,Z,9,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,258
+86444,CHICKASAW (ZONE), ,3/7/2008,1500,Winter Weather, , ,0,0,0,0,MS,CST-6, ,15189,Z,23,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,259
+86443,UNION (ZONE), ,3/7/2008,1500,Winter Weather, , ,0,0,0,0,MS,CST-6, ,15189,Z,14,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,260
+91231,LEFLORE (ZONE), ,3/7/2008,1600,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,15898,Z,25,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,261
+86447,ALCORN (ZONE), ,3/7/2008,1600,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,5,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,262
+86438,MONROE (ZONE), ,3/7/2008,1600,Winter Weather, , ,0,0,0,0,MS,CST-6, ,15189,Z,24,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,263
+86454,TISHOMINGO (ZONE), ,3/7/2008,1600,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,6,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,264
+86453,CALHOUN (ZONE), ,3/7/2008,1600,Winter Storm, , ,0,0,0,0,MS,CST-6, ,15189,Z,22,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,265
+86441,ITAWAMBA (ZONE), ,3/7/2008,1600,Winter Weather, , ,0,0,0,0,MS,CST-6, ,15189,Z,17,MEG,0,0,Law Enforcement, , , , , , , , , , , , ,,,266
+91244,SHARKEY (ZONE), ,3/7/2008,1700,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,15898,Z,41,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,267
+91241,HUMPHREYS (ZONE), ,3/7/2008,1700,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,15898,Z,35,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,268
+91234,CARROLL (ZONE), ,3/7/2008,2000,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,15898,Z,27,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,269
+91236,MONTGOMERY (ZONE), ,3/7/2008,2000,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,15898,Z,28,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,270
+91238,WEBSTER (ZONE), ,3/7/2008,2100,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,15898,Z,29,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,271
+91243,ATTALA (ZONE), ,3/7/2008,2130,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,15898,Z,37,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,272
+91242,HOLMES (ZONE), ,3/7/2008,2130,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,15898,Z,36,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,273
+147461,PIKE (ZONE), ,12/11/2008,400,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,25309,Z,70,LIX,0,0,Unknown, , , , , , , , , , , , ,,,274
+147462,WALTHALL (ZONE), ,12/11/2008,400,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,25309,Z,71,LIX,0,0,Unknown, , , , , , , , , , , , ,,,275
+147463,WILKINSON (ZONE), ,12/11/2008,400,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,25309,Z,68,LIX,0,0,Unknown, , , , , , , , , , , , ,,,276
+147459,AMITE (ZONE), ,12/11/2008,400,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,25309,Z,69,LIX,0,0,Unknown, , , , , , , , , , , , ,,,277
+140243,ADAMS (ZONE), ,12/11/2008,533,Ice Storm, , ,0,0,0,0,MS,CST-6, ,24047,Z,60,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,278
+140150,MARION (ZONE), ,12/11/2008,540,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,24047,Z,72,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,279
+140090,FRANKLIN (ZONE), ,12/11/2008,542,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,24047,Z,61,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,280
+140096,LAMAR (ZONE), ,12/11/2008,545,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,24047,Z,73,JAN,0,0,Broadcast Media, , , , , , , , , , , , ,,,281
+140091,LINCOLN (ZONE), ,12/11/2008,550,Heavy Snow, , ,0,0,10000,0,MS,CST-6, ,24047,Z,62,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,282
+140259,COVINGTON (ZONE), ,12/11/2008,555,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,24047,Z,65,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,283
+140151,JONES (ZONE), ,12/11/2008,557,Winter Weather, , ,0,0,0,0,MS,CST-6, ,24047,Z,66,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,284
+147460,PEARL RIVER (ZONE), ,12/11/2008,600,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,25309,Z,77,LIX,0,0,Unknown, , , , , , , , , , , , ,,,285
+140093,FORREST (ZONE), ,12/11/2008,604,Winter Weather, , ,0,0,0,0,MS,CST-6, ,24047,Z,74,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,286
+140260,JASPER (ZONE), ,12/11/2008,615,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,24047,Z,57,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,287
+140408,COPIAH (ZONE), ,12/11/2008,625,Heavy Snow, , ,0,0,10000,0,MS,CST-6, ,24047,Z,54,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,288
+140265,SIMPSON (ZONE), ,12/11/2008,625,Heavy Snow, , ,0,0,50000,0,MS,CST-6, ,24047,Z,55,JAN,0,0,Department of Highways, , , , , , , , , , , , ,,,289
+140148,LAWRENCE (ZONE), ,12/11/2008,625,Heavy Snow, , ,0,0,50000,0,MS,CST-6, ,24047,Z,63,JAN,0,0,Department of Highways, , , , , , , , , , , , ,,,290
+140095,RANKIN (ZONE), ,12/11/2008,635,Heavy Snow, , ,0,0,15000,0,MS,CST-6, ,24047,Z,49,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,291
+140149,JEFFERSON DAVIS (ZONE), ,12/11/2008,635,Heavy Snow, , ,0,0,10000,0,MS,CST-6, ,24047,Z,64,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,292
+140262,SMITH (ZONE), ,12/11/2008,645,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,24047,Z,56,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,293
+140409,SCOTT (ZONE), ,12/11/2008,715,Heavy Snow, , ,0,0,25000,0,MS,CST-6, ,24047,Z,50,JAN,0,0,Department of Highways, , , , , , , , , , , , ,,,294
+140263,LEAKE (ZONE), ,12/11/2008,737,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,24047,Z,44,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,295
+140264,NEWTON (ZONE), ,12/11/2008,845,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,24047,Z,51,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,296
+140606,GEORGE (ZONE), ,12/11/2008,900,Winter Weather, , ,0,0,0,0,MS,CST-6, ,24130,Z,79,MOB,0,0,Emergency Manager, , , , , , , , , , , , ,,,297
+140614,GREENE (ZONE), ,12/11/2008,900,Winter Weather, , ,0,0,0,0,MS,CST-6, ,24130,Z,76,MOB,0,0,Emergency Manager, , , , , , , , , , , , ,,,298
+140613,STONE (ZONE), ,12/11/2008,900,Winter Weather, , ,0,0,0,0,MS,CST-6, ,24130,Z,78,MOB,0,0,Emergency Manager, , , , , , , , , , , , ,,,299
+140608,PERRY (ZONE), ,12/11/2008,900,Winter Weather, , ,0,0,0,0,MS,CST-6, ,24130,Z,75,MOB,0,0,Emergency Manager, , , , , , , , , , , , ,,,300
+140607,WAYNE (ZONE), ,12/11/2008,900,Winter Weather, , ,0,0,0,0,MS,CST-6, ,24130,Z,67,MOB,0,0,Emergency Manager, , , , , , , , , , , , ,,,301
+142486,SUNFLOWER (ZONE), ,12/16/2008,617,Winter Weather, , ,0,0,0,0,MS,CST-6, ,24502,Z,19,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,302
+142487,ISSAQUENA (ZONE), ,12/16/2008,635,Winter Weather, , ,0,0,0,0,MS,CST-6, ,24502,Z,40,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,303
+142488,WASHINGTON (ZONE), ,12/16/2008,652,Winter Weather, , ,0,0,0,0,MS,CST-6, ,24502,Z,34,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,304
+142489,WASHINGTON (ZONE), ,12/16/2008,707,Winter Weather, , ,0,0,0,0,MS,CST-6, ,24502,Z,34,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,305
+148943,TUNICA (ZONE), ,1/5/2009,1400,Winter Weather, , ,0,0,0,0,MS,CST-6, ,25512,Z,7,MEG,0,0,Trained Spotter, , , , , , , , , , , , ,,,306
+153503,TIPPAH (ZONE), ,2/28/2009,1600,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26220,Z,4,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,307
+153502,MARSHALL (ZONE), ,2/28/2009,1600,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26220,Z,2,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,308
+153501,DE SOTO (ZONE), ,2/28/2009,1600,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26220,Z,1,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,309
+153500,BENTON (ZONE), ,2/28/2009,1600,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26220,Z,3,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,310
+153499,ALCORN (ZONE), ,2/28/2009,1600,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26220,Z,5,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,311
+155561,BENTON (ZONE), ,3/1/2009,0,Winter Storm, , ,0,0,0,0,MS,CST-6, ,26221,Z,3,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,312
+155571,TATE (ZONE), ,3/1/2009,0,Winter Storm, , ,0,0,0,0,MS,CST-6, ,26221,Z,8,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,313
+155559,ALCORN (ZONE), ,3/1/2009,0,Winter Storm, , ,0,0,0,0,MS,CST-6, ,26221,Z,5,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,314
+155564,TIPPAH (ZONE), ,3/1/2009,0,Winter Storm, , ,0,0,0,0,MS,CST-6, ,26221,Z,4,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,315
+155563,MARSHALL (ZONE), ,3/1/2009,0,Winter Storm, , ,0,0,0,0,MS,CST-6, ,26221,Z,2,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,316
+155562,DE SOTO (ZONE), ,3/1/2009,0,Winter Storm, , ,0,0,0,0,MS,CST-6, ,26221,Z,1,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,317
+154647,ATTALA (ZONE), ,3/1/2009,5,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26436,Z,37,JAN,0,0,Trained Spotter, , , , , , , , , , , , ,,,318
+154654,BOLIVAR (ZONE), ,3/1/2009,7,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26436,Z,18,JAN,0,0,COOP Observer, , , , , , , , , , , , ,,,319
+154646,LEFLORE (ZONE), ,3/1/2009,10,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26436,Z,25,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,320
+156681,NOXUBEE (ZONE), ,3/1/2009,10,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,26436,Z,39,JAN,0,0,COOP Observer, , , , , , , , , , , , ,,,321
+156680,CLAY (ZONE), ,3/1/2009,10,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,26436,Z,30,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,322
+154655,CARROLL (ZONE), ,3/1/2009,10,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26436,Z,27,JAN,0,0,COOP Observer, , , , , , , , , , , , ,,,323
+154650,WEBSTER (ZONE), ,3/1/2009,10,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,26436,Z,29,JAN,0,0,COOP Observer, , , , , , , , , , , , ,,,324
+156679,OKTIBBEHA (ZONE), ,3/1/2009,10,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,26436,Z,33,JAN,0,0,NWS Employee, , , , , , , , , , , , ,,,325
+156678,GRENADA (ZONE), ,3/1/2009,10,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,26436,Z,26,JAN,0,0,COOP Observer, , , , , , , , , , , , ,,,326
+154651,LOWNDES (ZONE), ,3/1/2009,10,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,26436,Z,31,JAN,0,0,Trained Spotter, , , , , , , , , , , , ,,,327
+156677,LEFLORE (ZONE), ,3/1/2009,13,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,26436,Z,25,JAN,0,0,Unknown, , , , , , , , , , , , ,,,328
+154657,LAUDERDALE (ZONE), ,3/1/2009,16,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26436,Z,52,JAN,0,0,Broadcast Media, , , , , , , , , , , , ,,,329
+154653,KEMPER (ZONE), ,3/1/2009,16,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,26436,Z,46,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,330
+155573,UNION (ZONE), ,3/1/2009,100,Winter Storm, , ,0,0,0,0,MS,CST-6, ,26221,Z,14,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,331
+155580,MONROE (ZONE), ,3/1/2009,100,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26221,Z,24,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,332
+155583,PONTOTOC (ZONE), ,3/1/2009,100,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26221,Z,15,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,333
+155581,PANOLA (ZONE), ,3/1/2009,100,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26221,Z,12,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,334
+155579,LEE (ZONE), ,3/1/2009,100,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26221,Z,16,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,335
+155578,LAFAYETTE (ZONE), ,3/1/2009,100,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26221,Z,13,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,336
+155590,TUNICA (ZONE), ,3/1/2009,100,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26221,Z,7,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,337
+155589,TALLAHATCHIE (ZONE), ,3/1/2009,100,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26221,Z,20,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,338
+155587,YALOBUSHA (ZONE), ,3/1/2009,100,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26221,Z,21,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,339
+155585,TISHOMINGO (ZONE), ,3/1/2009,100,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26221,Z,6,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,340
+155570,QUITMAN (ZONE), ,3/1/2009,100,Winter Storm, , ,0,0,0,0,MS,CST-6, ,26221,Z,11,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,341
+155569,PRENTISS (ZONE), ,3/1/2009,100,Winter Storm, , ,0,0,0,0,MS,CST-6, ,26221,Z,9,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,342
+155568,ITAWAMBA (ZONE), ,3/1/2009,100,Winter Storm, , ,0,0,0,0,MS,CST-6, ,26221,Z,17,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,343
+155565,CALHOUN (ZONE), ,3/1/2009,100,Winter Storm, , ,0,0,0,0,MS,CST-6, ,26221,Z,22,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,344
+155577,COAHOMA (ZONE), ,3/1/2009,100,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26221,Z,10,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,345
+155576,CHICKASAW (ZONE), ,3/1/2009,100,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26221,Z,23,MEG,0,0,Emergency Manager, , , , , , , , , , , , ,,,346
+154642,HINDS (ZONE), ,3/1/2009,150,Winter Weather, , ,0,0,0,0,MS,CST-6, ,26436,Z,48,JAN,0,0,NWS Employee, , , , , , , , , , , , ,,,347
+207829,WILKINSON (ZONE), ,12/4/2009,1730,Winter Storm, , ,0,0,0,0,MS,CST-6, ,35899,Z,68,LIX,0,0,Emergency Manager, , , , , , , , , , , , ,,,348
+207830,AMITE (ZONE), ,12/4/2009,1730,Winter Storm, , ,0,0,0,0,MS,CST-6, ,35899,Z,69,LIX,0,0,Emergency Manager, , , , , , , , , , , , ,,,349
+202184,ADAMS (ZONE), ,12/4/2009,1800,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,60,JAN,0,0,Public, , , , , , , , , , , , ,,,350
+207831,PIKE (ZONE), ,12/4/2009,1800,Winter Storm, , ,0,0,0,0,MS,CST-6, ,35899,Z,70,LIX,0,0,Emergency Manager, , , , , , , , , , , , ,,,351
+202181,JEFFERSON (ZONE), ,12/4/2009,1800,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,59,JAN,0,0,Public, , , , , , , , , , , , ,,,352
+202201,SIMPSON (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,55,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,353
+202191,FRANKLIN (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,61,JAN,0,0,Trained Spotter, , , , , , , , , , , , ,,,354
+202192,LINCOLN (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,62,JAN,0,0,Public, , , , , , , , , , , , ,,,355
+202202,COVINGTON (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,65,JAN,0,0,COOP Observer, , , , , , , , , , , , ,,,356
+202199,JEFFERSON DAVIS (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,64,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,357
+202190,SMITH (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,56,JAN,0,0,Public, , , , , , , , , , , , ,,,358
+202204,COPIAH (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,54,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,359
+202206,MARION (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,72,JAN,0,0,NWS Employee, , , , , , , , , , , , ,,,360
+202207,JONES (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,66,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,361
+202208,FORREST (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,74,JAN,0,0,Emergency Manager, , , , , , , , , , , , ,,,362
+202177,COPIAH (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,54,JAN,0,0,COOP Observer, , , , , , , , , , , , ,,,363
+202182,JONES (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,66,JAN,0,0,COOP Observer, , , , , , , , , , , , ,,,364
+202179,LINCOLN (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,62,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,365
+202180,LAWRENCE (ZONE), ,12/4/2009,1900,Heavy Snow, , ,0,0,0,0,MS,CST-6, ,35001,Z,63,JAN,0,0,Law Enforcement, , , , , , , , , , , , ,,,366
+207832,WALTHALL (ZONE), ,12/4/2009,1900,Winter Storm, , ,0,0,0,0,MS,CST-6, ,35899,Z,71,LIX,0,0,Emergency Manager, , , , , , , , , , , , ,,,367
+207833,PEARL RIVER (ZONE), ,12/4/2009,2100,Winter Storm, , ,0,0,0,0,MS,CST-6, ,35899,Z,77,LIX,0,0,Emergency Manager, , , , , , , , , , , , ,,,368
